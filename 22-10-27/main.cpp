@@ -1,4 +1,4 @@
-//Dovydas Þiedelis IIIA
+//Dovydas Ãžiedelis IIIA
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -11,7 +11,7 @@ int main()
     double vidmt, vidmen;
     ifstream fd("Duomenys.txt");
     fd >> n;
-    fro(int i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
         fd << A[i] << endl;
     }
